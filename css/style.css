@@ -1,0 +1,58 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lavender;
+    padding: 50px;
+    gap: 30px;
+}
+
+.prompt {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 50px;
+    padding: 10px 50px;
+    background-color: aliceblue;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}

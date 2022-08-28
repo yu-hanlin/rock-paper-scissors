@@ -45,26 +45,26 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-function game() {
-    let userScore = 0;
-    let computerScore = 0;
-    let playerSelection = "";
-    let computerSelection = "";
-    let result = 0;
-    for (let i = 0; i < 5; i++) {
-        computerSelection = getComputerChoice();
-        playerSelection = prompt("Choose rock, paper, or scissors");
-        console.log("Your choice: " + playerSelection);
-        console.log("Computers choice: " + computerSelection);
-        result = playRound(playerSelection, computerSelection);
-        if (result == 1) {
-            userScore += result;
-        }
-        else if (result == -1) {
-            computerScore -= result;
-        }
-    }
-    return "User score: " + userScore + " | Computer score: " + computerScore;
-}
+// function game() {
+//     let userScore = 0;
+//     let computerScore = 0;
+//     let playerSelection = "";
+//     let computerSelection = "";
+//     let result = 0;
+//     for (let i = 0; i < 5; i++) {
+//         computerSelection = getComputerChoice();
+//         playerSelection = prompt("Choose rock, paper, or scissors");
+//         console.log("Your choice: " + playerSelection);
+//         console.log("Computers choice: " + computerSelection);
+//         result = playRound(playerSelection, computerSelection);
+//         if (result == 1) {
+//             userScore += result;
+//         }
+//         else if (result == -1) {
+//             computerScore -= result;
+//         }
+//     }
+//     return "User score: " + userScore + " | Computer score: " + computerScore;
+// }
 
-console.log(game());
+// console.log(game());
